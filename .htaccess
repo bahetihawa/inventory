@@ -1,0 +1,9 @@
+#suPHP_ConfigPath /home/maayafinejewels/public_html
+Options +FollowSymLinks 
+RewriteEngine On 
+RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{SCRIPT_FILENAME} !-f
+#RewriteRule ^([a-z]*)/([a-z]*)$ index.php?page=$1&action=$2 [NC]
+#RewriteRule ^([a-z]*)/([a-z]*)/([a-z]*)$ index.php?page=$1&action=$2&link=$3 [NC]
+#RewriteRule ^([a-z]*)$ index.php?page&action=$1 
+RewriteRule ^(.*)$ index.php 
