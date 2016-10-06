@@ -2,10 +2,10 @@
 class DB
 {
 	
-	const DB_HOST = 'localhost';
-    const DB_NAME = 'maayafin_db';
-    const DB_USER = 'maayafin_ejewels';
-    const DB_PASSWORD = 'rIludpgyN6U6';
+	const DB_HOST = 'partsguru.in';
+    const DB_NAME = 'entry';
+    const DB_USER = 'entry';
+    const DB_PASSWORD = 'entry@123';
 	
    private static $instance = null;
    public static function conn()
